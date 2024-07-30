@@ -1,0 +1,205 @@
+.banner-content {
+    text-align: center;
+    background-image: url(assets/images/banner.png);
+}
+
+.banner img {
+    width: 248px;
+    height: 214px;
+}
+
+.banner h1 {
+    padding: 40px;
+    padding: 50px 0 20px 0px;
+    font-size: 40px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+    background: linear-gradient(180deg, #33a8db 0%, #0c5a93 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.banner p {
+    padding-bottom: 20px;
+    margin: 16px 0 24px;
+    margin: 0 30% 24px;
+}
+
+header button {
+    color: #31a8dd;
+    font-size: 1rem;
+    border-image-slice: 10;
+    transition: 0.6s;
+}
+
+header button:hover {
+    cursor: pointer;
+    cursor: pointer;
+    transform: scale(0.98);
+    background-color: #33a8db;
+    color: #fff;
+    background-color: #33a8db; 
+    color: #fff;
+}
+
+button {
+    padding: 19px 91px 19px 91px;
+    border-radius: 3px;
+    border: 2px solid black;
+    background-color: black;
+    background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
+    background: linear-gradient(180deg, #33a8db 0%, #0c5a93 100%);
+}
+
+header button:focus {
+    transform: scale(0.95);
+    transform: scale(0.95);
+}
+.modules-list {
+    color:white;
+}
+
+.course-content {
+    font-weight: 700;
+    background-color:#33A8DB;
+
+}
+
+div {
+    line-height: 30px;
+}
+
+.course-content p {
+    font-weight: 400;
+}
+
+div,span{
+    line-height: 40px;
+}
+
+section {
+    text-align: center;
+    margin: 100px auto;
+
+
+}
+
+#course-content {
+    width: 800px;
+}
+
+#course-content p {
+    padding: 10px;
+    padding: 20px;
+}
+
+h2 {
+    color: #33a8db;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.module {
+    border: 1px solid #33a8db;
+    border-radius: 57px;
+    background-color: rgb(40, 39, 39);
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+}
+
+.module span {
+    color: #33a8db;
+}
+
+#transform-world {
+    background-image: url(assets/images/woman-code.png);
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    background-position-y: -220px;
+    background-repeat: no-repeat;
+    overflow: visible;
+}
+
+#transform-world p {
+    position: absolute;
+    text-align: left;
+    text-shadow: 9px 6px rgba(52, 169, 220, 0.5);
+    margin-right: 750px;
+    margin-top: 150px;
+}
+
+#professional-challenges p {
+    font-size: 16px;
+    height: 76px;
+    text-align: center;
+    margin: 20px 20%;
+}
+
+#professional-challenges h2 {
+    margin: 20px;
+}
+
+.module {
+    font-weight: 400;
+
+}
+
+footer {
+    cursor: pointer;
+    background: linear-gradient(rgba(51, 168, 219, 0.2) 100%);
+
+}
+
+footer img {
+    margin: 10px;
+}
+
+footer a {
+    color: rgba(52, 169, 220, 0.5);
+    text-decoration: none;
+    text-decoration: none; 
+    font-size: 16px;
+    font-weight: 900;
+    font-weight: 900;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+@import url(header.css);
+@import url(main.css); 
+@import url(footer.css);
+
+* {
+    font-family: Raleway;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+section {
+    margin: 100px auto;
+}
+
+footer p {
+    padding-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+html {
+    background-color: black;
+}
